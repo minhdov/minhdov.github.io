@@ -1,0 +1,3 @@
+Deploy 
+
+bin/deploy --user

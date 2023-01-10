@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Worked at Nanyang Technological University
+title: Worked at Hardware and Embedded System Lab, School of Computer Science and Engineering, Nanyang Technological University (NTU), Singapore. 
 date: 2016-11-28 16:11:00-0400
 inline: false
 ---

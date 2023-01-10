@@ -36,19 +36,15 @@
       institution: Hardware and Embedded System Lab, School of Computer Science and Engineering, Nanyang Technological University, Singapore.
       year: 2016 - now
       description:
-        - TUMCREATE.
-        - PUDO.
-        - title: Description 3.
+        - title: TUMCREATE.
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+            - Developed powerful applications on embedded computing platforms for traffic surveillance and enforcement at urban.
+            - Illegal entry, illegal parking, virtual right of way, traffic density estimation.
 
+        - title: PUDO.
+          contents:
+            - Conducting video traffic analysis using computer vision and deep learning.
+            - The main goal of the project is to prepare these passenger pick-up/drop-off facilities (PUDOs) for the upcoming deployment of Autonomous Vehicles (AVs) and improve mobility experiences for all users.
 - title: Honors and Awards
   type: time_table
   contents:

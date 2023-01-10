@@ -12,31 +12,32 @@
   type: time_table
   contents:
     - title: Master by Research in Computer Science
-      institution: School of Computer Science and Enigneering, Nanyang Technological University, Singapore.
-      year: 2020
+      institution: Hardware and Embedded System Lab, School of Computer Science and Engineering, Nanyang Technological University, Singapore.
+      year: 2020-2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Conducted the research in multi target multi camera tracking system on embedded computing platform.
+        - The research aims to develop real-time, low-cost, low-power, scalable and robusted multiple object tracking crossing multiple non/overlapping cameras.
+        - The study is conducted on boosting performance of single camera tracking, re-identification and inter-camera association on the edge devices.
+        - title: Software and Hardware.
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Hardware: Computer board based on ARM64, IP cameras.
+            - Software: C++, Python, OpenCV, Pytorch, Tensorflow.  
+    - title: Bachelor of Engineering in Electronics and Telecommunications Engineering
+      institution: The University of Da Nang, University of Science and Technology (DUT), Da Nang City, Vietnam.
+      year: 2011-2016
       description:
-        - Description 1.
-        - Description 2.
+        - Graduation Thesis Title: “ Robotic Arm Design for Armless People controlled by head gesture and eyebrow”
+        - GPA: 8.14/10 or equivalent to 3.36/4.0, ranked 5/50 in class
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Engineer
+      institution: Hardware and Embedded System Lab, School of Computer Science and Engineering, Nanyang Technological University, Singapore.
+      year: 2016 - now
       description:
-        - Description 1.
-        - Description 2.
+        - TUMCREATE.
+        - PUDO.
         - title: Description 3.
           contents:
             - Sub-description 1.
@@ -71,10 +72,10 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2015
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
+        - 1st prize at Vietnam TI MCU Design Contest of Texas Instrument Company
+
     - year: 2029
       items: 
         - Max Planck Medal
@@ -82,11 +83,15 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Computer Vision.
       items: 
         - Description 1.
         - Description 2.
-    - title: Topic 2.
+    - title: Deep Learning.
+      items:
+        - Description 1.
+        - Description 2.
+    - title: Embedded System.
       items:
         - Description 1.
         - Description 2.
@@ -94,4 +99,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Badminton, Cycling, Gardening, etc.

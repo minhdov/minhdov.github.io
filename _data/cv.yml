@@ -21,7 +21,7 @@
         - title: Software and Hardware.
           contents:
             - Hardware (computer board based on ARM64, IP cameras).
-            - Software (C++, Python, OpenCV, Pytorch, Tensorflow, github, vscode, Ubuntu).  
+            - Software (C++, Python, OpenCV, Pytorch, Tensorflow, Robotic Operating System (ROS), github, vscode, Ubuntu).  
     - title: Bachelor of Engineering in Electronics and Telecommunications Engineering
       institution: The University of Da Nang, University of Science and Technology (DUT), Da Nang City, Vietnam.
       year: 2011-2016

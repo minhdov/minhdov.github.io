@@ -20,14 +20,14 @@
         - The study is conducted on boosting performance of single camera tracking, re-identification and inter-camera association on the edge devices.
         - title: Software and Hardware.
           contents:
-            - Hardware: Computer board based on ARM64, IP cameras.
-            - Software: C++, Python, OpenCV, Pytorch, Tensorflow.  
+            - Hardware (computer board based on ARM64, IP cameras).
+            - Software (C++, Python, OpenCV, Pytorch, Tensorflow, github, vscode, Ubuntu).  
     - title: Bachelor of Engineering in Electronics and Telecommunications Engineering
       institution: The University of Da Nang, University of Science and Technology (DUT), Da Nang City, Vietnam.
       year: 2011-2016
       description:
-        - Graduation Thesis Title: “ Robotic Arm Design for Armless People controlled by head gesture and eyebrow”
-        - GPA: 8.14/10 or equivalent to 3.36/4.0, ranked 5/50 in class
+        - Graduation Thesis Title “ Robotic Arm Design for Armless People controlled by head gesture and eyebrow”
+        - GPA 8.14/10 or equivalent to 3.36/4.0, ranked 5/50 in class
 
 - title: Experience
   type: time_table
@@ -42,26 +42,6 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
 - title: Open Source Projects
   type: time_table
   contents:
@@ -76,25 +56,23 @@
       items: 
         - 1st prize at Vietnam TI MCU Design Contest of Texas Instrument Company
 
-    - year: 2029
+    - year: 2012
       items: 
-        - Max Planck Medal
+        - GE (General Electric) Foundation Scholar - Leader Scholarship (US$3450), one of ten undergraduate students in Vietnam
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Computer Vision.
       items: 
-        - Description 1.
-        - Description 2.
+        - Change detection, single camera tracking, re-identification, and inter-camera tracking.
     - title: Deep Learning.
       items:
-        - Description 1.
-        - Description 2.
+        - Video analysis.
     - title: Embedded System.
       items:
-        - Description 1.
-        - Description 2.
+        - Accelerate and boost performance of computer vision and deep learning algorithm on multicore ARM processor.
+        - Working with diveristy of sensors consists of IP cameras, weather sensors.
 
 - title: Other Interests
   type: list

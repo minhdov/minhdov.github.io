@@ -1,0 +1,20 @@
+{% for work in site.data.workexp %}
+<div class="research-proj block">
+    <div class="research-summary">
+        {% if work.webpage %}
+            <a href="{{work.webpage}}" class="pub-name" target="_blank">{{ work.name}} </a>
+        {% else %}
+            <p class="pub-name" style="color:black;">{{ work.name}} </p>
+        {% endif %}
+
+        <p class="pub-timeline" style="font-style:italic; padding:5px 0px 5px 0px;">
+            {{work.timeline}}
+        </p>
+
+        <p class="pub-intro" style="font-size:14px; padding:5px 0px 5px 0px;">
+            {{ work.intro }}
+        </p>
+    </div>
+    
+</div>
+{% endfor %}

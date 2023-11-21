@@ -1,0 +1,9 @@
+collections:
+  publications:
+    output: True
+
+  workexp:
+    output: True
+
+  projects:
+    output: True

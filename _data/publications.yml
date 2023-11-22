@@ -1,20 +1,18 @@
-# - name: "Real-time Deep Visual Tracking on a Tight Budget"
-#   author: 
-#     - name: "Van Minh Do"
-#       me: "true"
-#     - name: "Wu Meiqing"
-#     - name: "Siew-kei Lam"
-#       website: "https://majiker.github.io/"
-#     - name: "Panpan Cai"
-#       website: "https://cindycia.github.io/"
-#     - name: "Sifa Zheng"
-#     - name: "David Hsu"
-#       website: "https://www.comp.nus.edu.sg/~dyhsu/"
-#   venue: "Advances in Neural Information Processing Systems 36 (NeurIPS 2023)"
-#   citekey: "haoran23"
-#   webpage: "https://whatmatters23.github.io/"
-#   thumbnail: "/assets/images/publications/haoran23/thumbnail.png"
-#   paper: "https://arxiv.org/abs/2306.15136"
+- name: "Real-time Deep Visual Tracking on a Tight Budget"
+  author: 
+    - name: "Van Minh Do"
+      me: "true"
+    - name: "Wu Meiqing"
+    - name: "Siew-kei Lam"
+      website: "https://siewkeilam.github.io/ei-research-group/index.html"
+    - name: "Thambipillai Srikanthan"
+      website: "https://cindycia.github.io/"
+
+  venue: "Advances in Neural Information Processing Systems 36 (NeurIPS 2023)"
+  citekey: "haoran23"
+  # webpage: "https://whatmatters23.github.io/"
+  # thumbnail: "/assets/images/publications/haoran23/thumbnail.png"
+  # paper: "https://arxiv.org/abs/2306.15136"
 
 - name: "Fast Semantic-Aware Motion State Detection for Visual SLAM in Dynamic Environment"
   author: 
@@ -22,7 +20,6 @@
       website: "https://scholar.google.com.sg/citations?user=iaGATqcAAAAJ&hl=en"
     - name: "Wu Meiqing"
       website: "https://dblp.org/pid/119/4173.html"
-
     - name: "Van Minh Do"
       me: "true"
       website: "https://minhdov.github.io/"
@@ -31,7 +28,7 @@
 
   venue: "IEEE Transactions on Intelligent Transportation Systems, 2022"
   citekey: "jon21"
-  # thumbnail: "/assets/images/publications/jon21/thumbnail.png"
+  thumbnail: "/assets/images/publications/gaurav21/gaurav-21.png"
   # webpage: "/publications/grandvision.html"
   paper: "/assets/pdf/gaurav-22.pdf"
 

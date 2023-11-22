@@ -1,7 +1,7 @@
 - name: "Virtual Right of Way"
   id: "filmgenre"
   timeline: "NTU, Singapore, Nov. 2020"
-  teammates: "Do Van Minh, Alok Prakash, Siew-Kei Lam"
+  teammates: "Nirmala Ramakrishnan, Do Van Minh, Alok Prakash, Siew-Kei Lam"
   intro: "The Virtual Right of Way (VROW) serves as a groundbreaking initiative to assess the viability of 
   a priority lane system for buses on two-lane roads. These roads lack dedicated bus lanes owing to 
   constraints such as insufficient bus volumes and limited spatial availability. 
@@ -27,6 +27,11 @@
   facilities. In particular, visual analytics performed on the edge computing devices mounted on the public transportation 
   infrastructure will be communicated to vehicles (such as Autonomous Vehicles) to enhance their navigation in the vicinity."
   webpage: "https://tum-asia.edu.sg/prospects-after-graduation/pudo-future-mobility-in-singapore/"
+
+- name: "Vision based Crowd Counting"
+  id: "cacheadaptive"
+  timeline: "NTU, Singapore, Sept. 2019"
+  teammates: "Wu Meiqing, Do Van Minh, Alok Prakash, Siew-Kei Lam, Thambipillai Srikanthan"
 
 - name: "Vision based Illegal Parking Detection"
   id: "cacheadaptive"

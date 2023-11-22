@@ -1,41 +1,30 @@
-- name: "Film Genre Prediction"
+- name: "Virtual Right of Way"
   id: "filmgenre"
-  timeline: "NUS, Singapore, Nov. 2022"
-  teammates: "Sashankh Chengavalli Kumar, Tran Phong, Wong Wei Hao"
-  intro: "In this project, we aim to study deep learning approaches to a text classification task, 
-  by attempting to predict the genre of a film based on its plot in a single-label multi-class classification problem. "
-  webpage: "/projects/filmgenre.html"
-  code: "https://github.com/tpvt99/film-genre-pred"
+  timeline: "NTU, Singapore, Nov. 2020"
+  teammates: "Do Van Minh, Alok Prakash, Siew-Kei Lam"
+  intro: "The Virtual Right of Way (VROW) serves as a groundbreaking initiative to assess the viability of 
+  a priority lane system for buses on two-lane roads. These roads lack dedicated bus lanes owing to 
+  constraints such as insufficient bus volumes and limited spatial availability. 
+  The innovative core of VROW lies in its approach that leverages technology to prompt drivers to 
+  yield the right of way to buses by using Variable Message Signs (VMS)"
+  webpage: "https://www.tum-create.edu.sg/research/sensing-and-management-agile-transport"
+  # code: "https://github.com/tpvt99/film-genre-pred"
 
-- name: "Cache-adaptive Matrix Multiplication"
+- name: "Vision based Smart Traffic Light"
   id: "cacheadaptive"
-  timeline: "NUS, Singapore, Nov. 2021"
-  teammates: "Apivich Hemachandra, Tran Phong"
-  intro: "We designed cache-efficient (cache-oblivious and cache-adaptive) algorithms for matrix multiplication
-  and experimented on a simulated cache and a real computer."
-  webpage: "/projects/cacheadaptive.html"
-  code: "https://github.com/tpvt99/cs5234_cache"
+  timeline: "NTU, Singapore, Nov. 2021"
+  teammates: "Do Van Minh, Alok Prakash, Siew-Kei Lam"
+  intro: "The Smart Traffic Light (STL) field-trial aims at minimizing the waiting time of vehicles at traffic light stops. 
+  The field trial was carried out at the company site of our industry collaborator."
+  # webpage: "/projects/cacheadaptive.html"
+  # code: "https://github.com/tpvt99/cs5234_cache"
 
-- name: "Controlling car in Duckietown using Deep Q-Learning"
+- name: "Infrastructure to Vehicle (I2V) Communication for Driving Assistance"
   id: "duckietown"
-  timeline: "NUS, Singapore, May 2021"
-  teammates: "Lim Sze Chi, Tran Phong"
-  intro: "We developed Deep Q-Learning to automate the Duckiebot to follow the lane and reduce speed near the traffic light.
-  We also employed Autoencoder network to extract good features."
-  webpage: "/projects/duckietown.html"
-  code: "https://github.com/tpvt99/autonomous-duckie"
+  timeline: "NTU, Singapore, May 2021 - May 2023"
+  teammates: "Do Van Minh, Wu Meiqing, Siew-Kei Lam"
+  intro: "This project aims to study the viability of I2V communication for driving assistance in public transportation 
+  facilities. In particular, visual analytics performed on the edge computing devices mounted on the public transportation 
+  infrastructure will be communicated to vehicles (such as Autonomous Vehicles) to enhance their navigation in the vicinity."
+  webpage: "https://tum-asia.edu.sg/prospects-after-graduation/pudo-future-mobility-in-singapore/"
 
-- name: "Vietnamese Character Recognition"
-  id: "vichar"
-  timeline: "HCMUT, Vietnam, Sep. 2017"
-  teammates: "Le Minh Quang, Tran Phong"
-  intro: "We collected comprehensive data of all Vietnamese characters to support the thesis proposal and 
-  applied a standard CNN model to recognize Vietnamese characters with 95% top-1 accuracy."
-
-- name: "LC3b CPU "
-  id: "lc3bcpu"
-  timeline: "HCMUT, Vietnam, Feb. 2017"
-  teammates: "Tran Phong"
-  intro: "We designed a core CPU (LC3b) architecture of Illinois University with Verilog language, verified by VCS tool in Linux
-  environment, and evaluated on FPGA (DEII Kit of Altera company).
-  We proposed a pipeline architecture that functioned properly sixteen machine instructions and achieved 125 Mhz."

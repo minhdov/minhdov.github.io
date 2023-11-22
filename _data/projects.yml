@@ -32,21 +32,25 @@
   id: "cacheadaptive"
   timeline: "NTU, Singapore, Sept. 2019"
   teammates: "Wu Meiqing, Do Van Minh, Alok Prakash, Siew-Kei Lam, Thambipillai Srikanthan"
+  webpage: "https://www.tum-create.edu.sg/research/sensing-and-management-agile-transport"
 
 - name: "Vision based Illegal Parking Detection"
   id: "cacheadaptive"
   timeline: "NTU, Singapore, Sept. 2018"
   teammates: "Kratika Garg, Do Van Minh, Alok Prakash, Siew-Kei Lam, Thambipillai Srikanthan"
+  webpage: "https://www.tum-create.edu.sg/research/sensing-and-management-agile-transport"
 
 - name: "Vision based Illegal Entry Detection"
   id: "cacheadaptive"
   timeline: "NTU, Singapore, Oct. 2017"
   teammates: "Wu Meiqing, Do Van Minh, Alok Prakash, Siew-Kei Lam, Thambipillai Srikanthan"
+  webpage: "https://www.tum-create.edu.sg/research/sensing-and-management-agile-transport"
 
 - name: "Vision based Traffic Density Estimation"
   id: "cacheadaptive"
   timeline: "NTU, Singapore, Nov. 2016"
   teammates: "Kratika, Nirmala, Do Van Minh, Alok Prakash, Siew-Kei Lam, Thambipillai Srikanthan"
+  webpage: "https://www.tum-create.edu.sg/research/sensing-and-management-agile-transport"
 
   # intro: "The Smart Traffic Light (STL) field-trial aims at minimizing the waiting time of vehicles at traffic light stops. 
   # The field trial was carried out at the company site of our industry collaborator."

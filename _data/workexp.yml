@@ -1,25 +1,37 @@
-- name: "Routing Engine for Y3 Technologies"
+- name: "Infrastructure to Vehicle (I2V) Communication for Driving Assistance"
   id: "y3engine"
-  timeline: "Fujitsu-SMU Corp Lab, March 2021 - now"
-  intro: "In this work, I extend our developed engine 
-    to cater for three main requirements from Y3 Technoligies: compatibility constraints (relationship between
-    vehicles and locations), dynamic time/distance matrix (due to road construction)
-    and optimized costs for each delivery routes."
+  timeline: "School of Computer Science and Engineering, NTU, Dec 2020 - now"
+  intro: "In the Infrastructure to Vehicle (I2V) Communication for Driving Assistance project, I led the development of real-time, 
+  resource-efficient computer vision algorithms to facilitate urban traffic management through embedded systems, optimizing for both 
+  cost and power consumption. Leveraging object detection and tracking techniques, I spearheaded the analysis of traffic flows across 
+  19 camera feeds, significantly contributing to smarter city infrastructure.
 
-- name: "Grand Vision for Singapore Police Force"
+My role also encompassed the design and refinement of a lightweight AI model capable of vehicle tracking and crowd counting. 
+This innovation empowered four Odroid N2+ edge devices to simultaneously process live feeds from nine cameras and establish 
+seamless communication with Autonomous Vehicles. Furthermore, I guided and mentored a team of 15 student assistants in the nuances 
+of AI data handling, including meticulous preparation and annotation."
+  webpage: "https://tum-asia.edu.sg/prospects-after-graduation/pudo-future-mobility-in-singapore/"
+
+- name: "Sensing and Management for Agile Transport"
   id: "gv"
-  timeline: "Fujitsu-SMU Corp Lab, March 2019 - March 2021"
-  intro: "I developed two neural network models: i) WCGAN combined with linear regression on 
-  tabular inputs and ii) Spatial-Temporal network in addition with VAE on images data to predict the crimes' locations and occurences.
-  I also implemented local search to plan ahead of the patrol shift work plans with minimum time shift between locations.
-  "  
-  webpage: "/workexp/gv-spf.html"
+  timeline: "School of Computer Science and Engineering, NTU, Dec 2016 - Dec 2020"
+  intro: "In the Sensing and Management for Agile Transport project, I played a pivotal role in setting up a comprehensive camera network, 
+  configuring 27 cameras across 8 key locations to capture high-quality video data for traffic analytics. My work involved developing 
+  and refining lightweight computer vision algorithms, training, and optimizing AI models on embedded platforms for real-time 
+  applications such as traffic density estimation, illegal parking and entry detection, crowd counting, and implementing vision-based 
+  smart traffic light systems.
 
-- name: "Collaborative Urban Delivery Optimization"
+I also led the supervision of algorithmic enhancements and conducted extensive field testing on various embedded platforms 
+including Odroid XU4 and Odroid N2+, significantly contributing to traffic management advancements both at NTU and across Singapore.
+  "  
+  webpage: "https://www.tum-create.edu.sg/research/sensing-and-management-agile-transport"
+
+- name: "Simultaneous Localization and Mapping (SLAM)"
   id: "cudo"
-  timeline: "Fujitsu-SMU Corp Lab, March 2019 - March 2021"
-  intro: "In this work, I used machine learning to predict the estimated time of arrival (ETA) between 
-  two locations. I proposed a time-slot division strategy to find the lowest number 
-  of vehicles before the neighborhood search  and post-optimized the schedule plans with redistributions of orders
-   while violating minimum of soft constraints. I also engineered the frontend and backend of the system.
+  timeline: "School of Computer Science and Engineering, NTU, Aug 2020 - Dec 2022"
+  intro: "In my work on Simultaneous Localization and Mapping (SLAM), I enhanced the robustness of visual SLAM 
+  by advancing dynamic outlier removal techniques within RGB-D and stereo data, which significantly improved pose 
+  estimation and map precision. I also progressed loop closure detection for long-term SLAM by integrating location semantics, 
+  reducing false matches and efficiently deploying these improvements on embedded systems..
   "
+  webpage: "https://ieeexplore.ieee.org/document/9928030"

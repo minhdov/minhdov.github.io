@@ -1,6 +1,11 @@
 - name: Home
   link: /
-  
+
 - name: Publications
-  link: "/#publication"
-  
+  link: /#publications
+
+- name: Projects
+  link: /#projects
+
+- name: Blog
+  link: "/#blog"

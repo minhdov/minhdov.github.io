@@ -32,28 +32,36 @@
   id: "cacheadaptive"
   timeline: "NTU, Singapore, Sept. 2019"
   teammates: "Wu Meiqing, Do Van Minh, Alok Prakash, Siew-Kei Lam, Thambipillai Srikanthan"
-  intro: "This project aims to count number of people wating at bus stop."
+  intro: "This project aims to count number of people wating at bus stop. This project aims to study the viability of I2V communication for driving assistance in public transportation 
+  facilities. In particular, visual analytics performed on the edge computing devices mounted on the public transportation 
+  infrastructure will be communicated to vehicles (such as Autonomous Vehicles) to enhance their navigation in the vicinity."
   webpage: "https://www.tum-create.edu.sg/research/sensing-and-management-agile-transport"
 
 - name: "Vision based Illegal Parking Detection"
   id: "cacheadaptive1"
   timeline: "NTU, Singapore, Sept. 2018"
   teammates: "Kratika Garg, Do Van Minh, Alok Prakash, Siew-Kei Lam, Thambipillai Srikanthan"
-  intro: "This project aims to detect illegal vehicle parking at prohibited areas."
+  intro: "This project aims to detect illegal vehicle parking at prohibited areas. This project aims to study the viability of I2V communication for driving assistance in public transportation 
+  facilities. In particular, visual analytics performed on the edge computing devices mounted on the public transportation 
+  infrastructure will be communicated to vehicles (such as Autonomous Vehicles) to enhance their navigation in the vicinity."
   webpage: "https://www.tum-create.edu.sg/research/sensing-and-management-agile-transport"
 
 - name: "Vision based Illegal Entry Detection"
   id: "cacheadaptive2"
   timeline: "NTU, Singapore, Oct. 2017"
   teammates: "Wu Meiqing, Do Van Minh, Alok Prakash, Siew-Kei Lam, Thambipillai Srikanthan"
-  intro: "This project aims to detect non-bus vehicle entering the bus lane in restricted time."
+  intro: "This project aims to detect non-bus vehicle entering the bus lane in restricted time. This project aims to study the viability of I2V communication for driving assistance in public transportation 
+  facilities. In particular, visual analytics performed on the edge computing devices mounted on the public transportation 
+  infrastructure will be communicated to vehicles (such as Autonomous Vehicles) to enhance their navigation in the vicinity."
   webpage: "https://www.tum-create.edu.sg/research/sensing-and-management-agile-transport"
 
 - name: "Vision based Traffic Density Estimation"
   id: "cacheadaptive3"
   timeline: "NTU, Singapore, Nov. 2016"
   teammates: "Kratika Garg, Nirmala Ramakrishnan, Do Van Minh, Alok Prakash, Siew-Kei Lam, Thambipillai Srikanthan"
-  intro: "This project aims to estimate the traffic denstity at different lanes on the road."
+  intro: "This project aims to estimate the traffic denstity at different lanes on the road. This project aims to study the viability of I2V communication for driving assistance in public transportation 
+  facilities. In particular, visual analytics performed on the edge computing devices mounted on the public transportation 
+  infrastructure will be communicated to vehicles (such as Autonomous Vehicles) to enhance their navigation in the vicinity."
   webpage: "https://www.tum-create.edu.sg/research/sensing-and-management-agile-transport"
 
   # intro: "The Smart Traffic Light (STL) field-trial aims at minimizing the waiting time of vehicles at traffic light stops. 

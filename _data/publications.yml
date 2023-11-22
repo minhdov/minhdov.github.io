@@ -28,7 +28,7 @@
 
   venue: "IEEE Transactions on Intelligent Transportation Systems, 2022"
   citekey: "jon21"
-  thumbnail: "/assets/images/publications/gaurav21/gaurav-21.png"
+  thumbnail: "/assets/images/publications/gaurav/gaurav-21.png"
   # webpage: "/publications/grandvision.html"
   paper: "/assets/pdf/gaurav-22.pdf"
 
@@ -43,10 +43,11 @@
       website: "https://siewkeilam.github.io/ei-research-group/index.html"
     - name: "Van Minh Do"
       me: "true"
+      website: "https://minhdov.github.io/"
 
   venue: "24th IEEE International Conference on Intelligent Transportation (ITSC), 2021"
   citekey: "tran18"
-  # thumbnail: "/assets/images/publications/tran18/thumbnail.png"
+  thumbnail: "/assets/images/publications/gaurav/gaurav-22.png"
   paper: "/assets/pdf/gaurav-21.pdf"
   # webpage: "/publications/stream-orb.html"
 

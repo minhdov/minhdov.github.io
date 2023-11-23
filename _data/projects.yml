@@ -2,7 +2,7 @@
   id: "duckietown"
   timeline: "NTU, Singapore, May 2021 - May 2023"
   teammates:
-    - name: "Do Van Minh"
+    - name: "Van Minh Do "
       webpage: "https://minhdov.github.io/"
     - name: "Wu Meiqing"
       webpage: "https://dblp.org/pid/119/4173.html"
@@ -15,7 +15,7 @@
   id: "cacheadaptive"
   timeline: "NTU, Singapore, Nov. 2021"
   teammates:
-    - name: "Do Van Minh"
+    - name: "Van Minh Do "
       webpage: "https://minhdov.github.io/"
     - name: "Alok Prakash"
       webpage: "https://www.linkedin.com/in/alokprakash2/"
@@ -35,7 +35,7 @@
   teammates:
     - name: "Nirmala Ramakrishnan"
       webpage: "teammates/nirmala-ramakrishnan.html"
-    - name: "Do Van Minh"
+    - name: "Van Minh Do "
       webpage: "https://minhdov.github.io/"
     - name: "Alok Prakash"
       webpage: "https://www.linkedin.com/in/alokprakash2/"
@@ -55,7 +55,7 @@
   teammates:
     - name: "Wu Meiqing"
       webpage: "https://dblp.org/pid/119/4173.html"
-    - name: "Do Van Minh"
+    - name: "Van Minh Do "
       webpage: "https://minhdov.github.io/"
     - name: "Alok Prakash"
       webpage: "https://www.linkedin.com/in/alokprakash2/"
@@ -76,7 +76,7 @@
   teammates:
     - name: "Kratika Garg"
       webpage: "https://www.linkedin.com/in/kratika-garg/?originalSubdomain=sg"
-    - name: "Do Van Minh"
+    - name: "Van Minh Do "
       webpage: "https://minhdov.github.io/"
     - name: "Alok Prakash"
       webpage: "https://www.linkedin.com/in/alokprakash2/"
@@ -97,7 +97,7 @@ resilient to changes in illumination and varying weather conditions in Singapore
   teammates:
     - name: "Wu Meiqing"
       webpage: "https://dblp.org/pid/119/4173.html"
-    - name: "Do Van Minh"
+    - name: "Van Minh Do "
       webpage: "https://minhdov.github.io/"
     - name: "Alok Prakash"
       webpage: "https://www.linkedin.com/in/alokprakash2/"
@@ -120,7 +120,7 @@ resilient to changes in illumination and varying weather conditions in Singapore
       webpage: "https://www.linkedin.com/in/kratika-garg/?originalSubdomain=sg"
     - name: "Nirmala Ramakrishnan"
       webpage: "teammates/nirmala-ramakrishnan.html"
-    - name: "Do Van Minh"
+    - name: "Van Minh Do "
       webpage: "https://minhdov.github.io/"
     - name: "Alok Prakash"
       webpage: "https://www.linkedin.com/in/alokprakash2/"
@@ -145,7 +145,7 @@ and various weather conditions, providing reliable traffic density estimates on 
 #   teammates:
 #     - name: "Kratika Garg"
 #       webpage: "https://www.linkedin.com/in/kratika-garg/?originalSubdomain=sg"
-#     - name: "Do Van Minh"
+#     - name: "Van Minh Do "
 #       webpage: "https://minhdov.github.io/"
 #     - name: "Alok Prakash"
 #       webpage: "https://www.linkedin.com/in/alokprakash2/"

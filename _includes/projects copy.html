@@ -4,12 +4,12 @@
         <div style="overflow:hidden">
             <div style="max-width: 50%; float:left;">
                 {% if project.webpage %}
-                    <span><a href="{{project.webpage}}" class="pub-name" style="display:inline" target="_blank">{{ project.name }} </a></span>
-                    {% if project.code %}
-                        <span>| <a href="{{project.code}}" class="pub-name" style="display:inline" target="_blank">Code</a></span>
-                    {% endif %}
+                <span><a href="{{project.webpage}}" class="pub-name" style="display:inline" target="_blank">{{ project.name}} </a></span>
                 {% else %}
-                    <span class="pub-name" style="color:black;">{{ project.name }} </span>
+                    <span class="pub-name" style="color:black;">{{ project.name}} </span>
+                {% endif %}
+                {% if project.code %}
+                    <span>| <a href="{{project.code}}" class="pub-name" style="display:inline" target="_blank">Code</a></span>
                 {% endif %}
             </div>
             <div style="max-width: 50%; float:right;">
@@ -20,13 +20,7 @@
         <p class="pub-teammates" style="font-style:italic; padding:5px 0px 5px 0px;">
             Teammates:
             {% for teammate in project.teammates %}
-                <a href="{{teammate.webpage}}" target="_blank">
-                    {%- if teammate.me == "true" -%}
-                        <strong>{{ teammate.name }}</strong>
-                    {%- else -%}
-                        {{ teammate.name }}
-                    {%- endif -%}
-                </a>{% unless forloop.last %}, {% endunless %}
+                <a href="{{teammate.webpage}}" target="_blank">{{ teammate.name }}</a>{% unless forloop.last %}, {% endunless %}
             {% endfor %}
         </p>
 
@@ -34,5 +28,6 @@
             {{ project.intro }}
         </p>
     </div>
+    
 </div>
 {% endfor %}

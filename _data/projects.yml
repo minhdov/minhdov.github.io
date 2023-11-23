@@ -2,7 +2,8 @@
   id: "duckietown"
   timeline: "NTU, Singapore, May 2021 - May 2023"
   teammates:
-    - name: "Van Minh Do "
+    - name: "Van Minh Do"
+      me: "true"
       webpage: "https://minhdov.github.io/"
     - name: "Wu Meiqing"
       webpage: "https://dblp.org/pid/119/4173.html"
@@ -15,7 +16,9 @@
   id: "cacheadaptive"
   timeline: "NTU, Singapore, Nov. 2021"
   teammates:
-    - name: "Van Minh Do "
+    - name: "Van Minh Do"
+      me: "true"
+
       webpage: "https://minhdov.github.io/"
     - name: "Alok Prakash"
       webpage: "https://www.linkedin.com/in/alokprakash2/"
@@ -35,7 +38,9 @@
   teammates:
     - name: "Nirmala Ramakrishnan"
       webpage: "teammates/nirmala-ramakrishnan.html"
-    - name: "Van Minh Do "
+    - name: "Van Minh Do"
+      me: "true"
+
       webpage: "https://minhdov.github.io/"
     - name: "Alok Prakash"
       webpage: "https://www.linkedin.com/in/alokprakash2/"
@@ -55,7 +60,9 @@
   teammates:
     - name: "Wu Meiqing"
       webpage: "https://dblp.org/pid/119/4173.html"
-    - name: "Van Minh Do "
+    - name: "Van Minh Do"
+      me: "true"
+
       webpage: "https://minhdov.github.io/"
     - name: "Alok Prakash"
       webpage: "https://www.linkedin.com/in/alokprakash2/"
@@ -76,7 +83,9 @@
   teammates:
     - name: "Kratika Garg"
       webpage: "https://www.linkedin.com/in/kratika-garg/?originalSubdomain=sg"
-    - name: "Van Minh Do "
+    - name: "Van Minh Do"
+      me: "true"
+
       webpage: "https://minhdov.github.io/"
     - name: "Alok Prakash"
       webpage: "https://www.linkedin.com/in/alokprakash2/"
@@ -97,7 +106,9 @@ resilient to changes in illumination and varying weather conditions in Singapore
   teammates:
     - name: "Wu Meiqing"
       webpage: "https://dblp.org/pid/119/4173.html"
-    - name: "Van Minh Do "
+    - name: "Van Minh Do"
+      me: "true"
+
       webpage: "https://minhdov.github.io/"
     - name: "Alok Prakash"
       webpage: "https://www.linkedin.com/in/alokprakash2/"
@@ -120,7 +131,9 @@ resilient to changes in illumination and varying weather conditions in Singapore
       webpage: "https://www.linkedin.com/in/kratika-garg/?originalSubdomain=sg"
     - name: "Nirmala Ramakrishnan"
       webpage: "teammates/nirmala-ramakrishnan.html"
-    - name: "Van Minh Do "
+    - name: "Van Minh Do"
+      me: "true"
+
       webpage: "https://minhdov.github.io/"
     - name: "Alok Prakash"
       webpage: "https://www.linkedin.com/in/alokprakash2/"
@@ -139,23 +152,3 @@ and various weather conditions, providing reliable traffic density estimates on 
 
 
 
-# - name: "Vision based Illegal Parking Detection"
-#   id: "cacheadaptive1"
-#   timeline: "NTU, Singapore, Sept. 2018"
-#   teammates:
-#     - name: "Kratika Garg"
-#       webpage: "https://www.linkedin.com/in/kratika-garg/?originalSubdomain=sg"
-#     - name: "Van Minh Do "
-#       webpage: "https://minhdov.github.io/"
-#     - name: "Alok Prakash"
-#       webpage: "https://www.linkedin.com/in/alokprakash2/"
-#     - name: "Siew-Kei Lam"
-#       webpage: "https://siewkeilam.github.io/ei-research-group/index.html"
-#     - name: "Thambipillai Srikanthan"
-#       webpage: "https://www.ntu.edu.sg/scse/about-us/past-chairs/prof-thambipillai-srikanthan"
-#   intro: >
-#     This project aims to detect illegal vehicle parking at prohibited areas. 
-#     It focuses on studying the viability of I2V communication for driving assistance in public transportation facilities. 
-#     Visual analytics performed on edge computing devices mounted on public transportation infrastructure 
-#     will be communicated to vehicles, such as Autonomous Vehicles, to enhance their navigation in the vicinity.
-#   webpage: "https://www.tum-create.edu.sg/research/sensing-and-management-agile-transport"

@@ -1,70 +1,161 @@
-- name: "Virtual Right of Way"
-  id: "filmgenre"
-  timeline: "NTU, Singapore, Nov. 2020"
-  teammates: "Nirmala Ramakrishnan, Do Van Minh, Alok Prakash, Siew-Kei Lam"
-  intro: "The Virtual Right of Way (VROW) serves as a groundbreaking initiative to assess the viability of 
-  a priority lane system for buses on two-lane roads. These roads lack dedicated bus lanes owing to 
-  constraints such as insufficient bus volumes and limited spatial availability. 
-  The innovative core of VROW lies in its approach that leverages technology to prompt drivers to 
-  yield the right of way to buses by using Variable Message Signs."
-  webpage: "https://www.tum-create.edu.sg/research/sensing-and-management-agile-transport"
-  # code: "https://github.com/tpvt99/film-genre-pred"
+- name: "Infrastructure to Vehicle (I2V) Communication for Driving Assistance"
+  id: "duckietown"
+  timeline: "NTU, Singapore, May 2021 - May 2023"
+  teammates:
+    - name: "Do Van Minh"
+      webpage: "https://minhdov.github.io/"
+    - name: "Wu Meiqing"
+      webpage: "https://dblp.org/pid/119/4173.html"
+    - name: "Siew-Kei Lam"
+      webpage: "https://siewkeilam.github.io/ei-research-group/index.html"
+  intro: "This project aims to study the viability of I2V communication for driving assistance in public transportation facilities. In particular, visual analytics performed on the edge computing devices mounted on the public transportation infrastructure will be communicated to vehicles (such as Autonomous Vehicles) to enhance their navigation in the vicinity."
+  webpage: "https://tum-asia.edu.sg/prospects-after-graduation/pudo-future-mobility-in-singapore/"
 
 - name: "Vision based Smart Traffic Light"
   id: "cacheadaptive"
   timeline: "NTU, Singapore, Nov. 2021"
-  teammates: "Do Van Minh, Alok Prakash, Siew-Kei Lam"
-  intro: "The Smart Traffic Light (STL) field-trial aims at minimizing the waiting time of vehicles at traffic light stops. 
-  The field trial was carried out at the company site of our industry collaborator."
+  teammates:
+    - name: "Do Van Minh"
+      webpage: "https://minhdov.github.io/"
+    - name: "Alok Prakash"
+      webpage: "https://www.linkedin.com/in/alokprakash2/"
+    - name: "Siew-Kei Lam"
+      webpage: "https://siewkeilam.github.io/ei-research-group/index.html"
+  intro: "The Smart Traffic Light field trial is geared towards reducing the waiting time of vehicles at traffic light stops. 
+  Executed at the company site of our industry collaborator, the project has achieved success in developing a lightweight 
+  computer vision algorithm and an optimized deep learning model for real-time vehicle detection and tracking. The system 
+  operates continuously on resource-constrained embedded computing platforms, ensuring 24/7 effectiveness. Notably, it maintains 
+  its efficiency amidst changing illumination and diverse weather conditions in Singapore."
   # webpage: "/projects/cacheadaptive.html"
   # code: "https://github.com/tpvt99/cs5234_cache"
 
-- name: "Infrastructure to Vehicle (I2V) Communication for Driving Assistance"
-  id: "duckietown"
-  timeline: "NTU, Singapore, May 2021 - May 2023"
-  teammates: "Do Van Minh, Wu Meiqing, Siew-Kei Lam"
-  intro: "This project aims to study the viability of I2V communication for driving assistance in public transportation 
-  facilities. In particular, visual analytics performed on the edge computing devices mounted on the public transportation 
-  infrastructure will be communicated to vehicles (such as Autonomous Vehicles) to enhance their navigation in the vicinity."
-  webpage: "https://tum-asia.edu.sg/prospects-after-graduation/pudo-future-mobility-in-singapore/"
+- name: "Virtual Right of Way"
+  id: "filmgenre"
+  timeline: "NTU, Singapore, Nov. 2020"
+  teammates:
+    - name: "Nirmala Ramakrishnan"
+      webpage: "teammates/nirmala-ramakrishnan.html"
+    - name: "Do Van Minh"
+      webpage: "https://minhdov.github.io/"
+    - name: "Alok Prakash"
+      webpage: "https://www.linkedin.com/in/alokprakash2/"
+    - name: "Siew-Kei Lam"
+      webpage: "https://siewkeilam.github.io/ei-research-group/index.html"
+  intro: "The project has successfully developed a lightweight computer vision algorithm and an optimized deep learning model 
+  tailored for real-time operations on a low-cost embedded computing platform. These advancements ensure dependable, real-time 
+  performance on computing platforms with constrained resources, leading to efficient power conservation. The technology excels 
+  in detecting and tracking various bus types across diverse conditions, encompassing different weather patterns, illumination 
+  fluctuations, and assorted traffic scenarios in Singapore."
+  webpage: "https://www.tum-create.edu.sg/research/sensing-and-management-agile-transport"
+  # code: "https://github.com/tpvt99/film-genre-pred"
 
 - name: "Vision based Crowd Counting"
-  id: "cacheadaptive"
+  id: "cacheadaptive11"
   timeline: "NTU, Singapore, Sept. 2019"
-  teammates: "Wu Meiqing, Do Van Minh, Alok Prakash, Siew-Kei Lam, Thambipillai Srikanthan"
-  intro: "This project aims to count number of people wating at bus stop. This project aims to study the viability of I2V communication for driving assistance in public transportation 
-  facilities. In particular, visual analytics performed on the edge computing devices mounted on the public transportation 
-  infrastructure will be communicated to vehicles (such as Autonomous Vehicles) to enhance their navigation in the vicinity."
-  webpage: "https://www.tum-create.edu.sg/research/sensing-and-management-agile-transport"
+  teammates:
+    - name: "Wu Meiqing"
+      webpage: "https://dblp.org/pid/119/4173.html"
+    - name: "Do Van Minh"
+      webpage: "https://minhdov.github.io/"
+    - name: "Alok Prakash"
+      webpage: "https://www.linkedin.com/in/alokprakash2/"
+    - name: "Siew-Kei Lam"
+      webpage: "https://siewkeilam.github.io/ei-research-group/index.html"
+    - name: "Thambipillai Srikanthan"
+      webpage: "https://www.ntu.edu.sg/scse/about-us/past-chairs/prof-thambipillai-srikanthan"
+  intro: "This project is dedicated to accurately counting individuals waiting at bus stops, aiming to estimate 
+  bus demand and enhance the efficiency of the bus schedule system. Achieving this goal involves the development 
+  of a lightweight computer vision system and an optimized deep learning model. These innovations enable real-time 
+  and resilient performance on resource-constrained embedded computing platforms. Notably, the project achieves significant 
+  reductions in power consumption, facilitating continuous operation 24/7. This capability ensures precise people counting 
+  even amidst fluctuations in illumination and varying degrees of crowded scenarios in Singapore."
 
 - name: "Vision based Illegal Parking Detection"
   id: "cacheadaptive1"
   timeline: "NTU, Singapore, Sept. 2018"
-  teammates: "Kratika Garg, Do Van Minh, Alok Prakash, Siew-Kei Lam, Thambipillai Srikanthan"
-  intro: "This project aims to detect illegal vehicle parking at prohibited areas. This project aims to study the viability of I2V communication for driving assistance in public transportation 
-  facilities. In particular, visual analytics performed on the edge computing devices mounted on the public transportation 
-  infrastructure will be communicated to vehicles (such as Autonomous Vehicles) to enhance their navigation in the vicinity."
+  teammates:
+    - name: "Kratika Garg"
+      webpage: "https://www.linkedin.com/in/kratika-garg/?originalSubdomain=sg"
+    - name: "Do Van Minh"
+      webpage: "https://minhdov.github.io/"
+    - name: "Alok Prakash"
+      webpage: "https://www.linkedin.com/in/alokprakash2/"
+    - name: "Siew-Kei Lam"
+      webpage: "https://siewkeilam.github.io/ei-research-group/index.html"
+    - name: "Thambipillai Srikanthan"
+      webpage: "https://www.ntu.edu.sg/scse/about-us/past-chairs/prof-thambipillai-srikanthan"
+  intro: "The primary objective of this project is to identify instances of illegal vehicle parking in 
+prohibited areas. To achieve this goal, the project has implemented a lightweight computer vision 
+system and an optimized deep learning model. These innovations enable real-time detection, tracking, and evidence 
+collection for illegal parking on resource-constrained embedded computing platforms. Operating 24/7, the system is 
+resilient to changes in illumination and varying weather conditions in Singapore."
   webpage: "https://www.tum-create.edu.sg/research/sensing-and-management-agile-transport"
 
 - name: "Vision based Illegal Entry Detection"
   id: "cacheadaptive2"
   timeline: "NTU, Singapore, Oct. 2017"
-  teammates: "Wu Meiqing, Do Van Minh, Alok Prakash, Siew-Kei Lam, Thambipillai Srikanthan"
-  intro: "This project aims to detect non-bus vehicle entering the bus lane in restricted time. This project aims to study the viability of I2V communication for driving assistance in public transportation 
-  facilities. In particular, visual analytics performed on the edge computing devices mounted on the public transportation 
-  infrastructure will be communicated to vehicles (such as Autonomous Vehicles) to enhance their navigation in the vicinity."
+  teammates:
+    - name: "Wu Meiqing"
+      webpage: "https://dblp.org/pid/119/4173.html"
+    - name: "Do Van Minh"
+      webpage: "https://minhdov.github.io/"
+    - name: "Alok Prakash"
+      webpage: "https://www.linkedin.com/in/alokprakash2/"
+    - name: "Siew-Kei Lam"
+      webpage: "https://siewkeilam.github.io/ei-research-group/index.html"
+    - name: "Thambipillai Srikanthan"
+      webpage: "https://www.ntu.edu.sg/scse/about-us/past-chairs/prof-thambipillai-srikanthan"
+  intro: "This project is designed to identify instances of illegal vehicle entry into the bus lane during prohibited durations. 
+  To achieve this, the project has developed a lightweight computer vision system and an optimized deep learning model. 
+  These technological advancements enable real-time detection, tracking, and evidence collection for non-bus unauthorized entries. 
+  The system operates continuously on resource-constrained embedded computing platforms, ensuring 24/7 functionality even in the 
+  presence of changing illumination and various weather conditions in Singapore."
   webpage: "https://www.tum-create.edu.sg/research/sensing-and-management-agile-transport"
 
 - name: "Vision based Traffic Density Estimation"
   id: "cacheadaptive3"
   timeline: "NTU, Singapore, Nov. 2016"
-  teammates: "Kratika Garg, Nirmala Ramakrishnan, Do Van Minh, Alok Prakash, Siew-Kei Lam, Thambipillai Srikanthan"
-  intro: "This project aims to estimate the traffic denstity at different lanes on the road. This project aims to study the viability of I2V communication for driving assistance in public transportation 
-  facilities. In particular, visual analytics performed on the edge computing devices mounted on the public transportation 
-  infrastructure will be communicated to vehicles (such as Autonomous Vehicles) to enhance their navigation in the vicinity."
+  teammates:
+    - name: "Kratika Garg"
+      webpage: "https://www.linkedin.com/in/kratika-garg/?originalSubdomain=sg"
+    - name: "Nirmala Ramakrishnan"
+      webpage: "teammates/nirmala-ramakrishnan.html"
+    - name: "Do Van Minh"
+      webpage: "https://minhdov.github.io/"
+    - name: "Alok Prakash"
+      webpage: "https://www.linkedin.com/in/alokprakash2/"
+    - name: "Siew-Kei Lam"
+      webpage: "https://siewkeilam.github.io/ei-research-group/index.html"
+    - name: "Thambipillai Srikanthan"
+      webpage: "https://www.ntu.edu.sg/scse/about-us/past-chairs/prof-thambipillai-srikanthan"
+  intro: "
+The primary goal of this project is to estimate traffic density across different lanes on the road. 
+To achieve this, the project has developed a lightweight computer vision algorithm specifically 
+designed to detect the percentage of lane occupancy. This algorithm operates seamlessly on resource-constrained 
+embedded computing platforms, ensuring continuous functionality 24/7. It is adept at handling changes in illumination 
+and various weather conditions, providing reliable traffic density estimates on roads in Singapore."
   webpage: "https://www.tum-create.edu.sg/research/sensing-and-management-agile-transport"
 
-  # intro: "The Smart Traffic Light (STL) field-trial aims at minimizing the waiting time of vehicles at traffic light stops. 
-  # The field trial was carried out at the company site of our industry collaborator."
-  # webpage: "/projects/cacheadaptive.html"
-  # code: "https://github.com/tpvt99/cs5234_cache"
+
+
+
+# - name: "Vision based Illegal Parking Detection"
+#   id: "cacheadaptive1"
+#   timeline: "NTU, Singapore, Sept. 2018"
+#   teammates:
+#     - name: "Kratika Garg"
+#       webpage: "https://www.linkedin.com/in/kratika-garg/?originalSubdomain=sg"
+#     - name: "Do Van Minh"
+#       webpage: "https://minhdov.github.io/"
+#     - name: "Alok Prakash"
+#       webpage: "https://www.linkedin.com/in/alokprakash2/"
+#     - name: "Siew-Kei Lam"
+#       webpage: "https://siewkeilam.github.io/ei-research-group/index.html"
+#     - name: "Thambipillai Srikanthan"
+#       webpage: "https://www.ntu.edu.sg/scse/about-us/past-chairs/prof-thambipillai-srikanthan"
+#   intro: >
+#     This project aims to detect illegal vehicle parking at prohibited areas. 
+#     It focuses on studying the viability of I2V communication for driving assistance in public transportation facilities. 
+#     Visual analytics performed on edge computing devices mounted on public transportation infrastructure 
+#     will be communicated to vehicles, such as Autonomous Vehicles, to enhance their navigation in the vicinity.
+#   webpage: "https://www.tum-create.edu.sg/research/sensing-and-management-agile-transport"

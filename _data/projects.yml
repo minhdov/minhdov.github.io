@@ -40,12 +40,14 @@
       webpage: "teammates/nirmala-ramakrishnan.html"
     - name: "Van Minh Do"
       me: "true"
-
       webpage: "https://minhdov.github.io/"
     - name: "Alok Prakash"
       webpage: "https://www.linkedin.com/in/alokprakash2/"
     - name: "Siew-Kei Lam"
       webpage: "https://siewkeilam.github.io/ei-research-group/index.html"
+    - name: "Thambipillai Srikanthan"
+      webpage: "https://www.ntu.edu.sg/scse/about-us/past-chairs/prof-thambipillai-srikanthan" 
+
   intro: "The project has successfully developed a lightweight computer vision algorithm and an optimized deep learning model 
   tailored for real-time operations on a low-cost embedded computing platform. These advancements ensure dependable, real-time 
   performance on computing platforms with constrained resources, leading to efficient power conservation. The technology excels 

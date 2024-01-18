@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynamic Content Loading</title>
+<style>
+    body { font-family: Arial, sans-serif; }
+    .main-content { width: 100%; padding: 10px; }
+    /* Add any additional styles you need here */
+</style>
+</head>
+<body>
+
+<div class="main-content" id="main-content">
+  <h2>Content Area</h2>
+  <p>Update soon ... .</p>
+</div>
+
+<script>
+function loadContent(filename) {
+    fetch(filename)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok: ' + response.statusText);
+            }
+            return response.text();
+        })
+        .then(html => {
+            document.getElementById('main-content').innerHTML = html;
+        })
+        .catch(error => {
+            console.error('There has been a problem with your fetch operation:', error);
+            document.getElementById('main-content').innerHTML = '<p>Error loading content.</p>';
+        });
+}
+
+// Example usage: loadContent('content-page.html');
+</script>
+
+</body>
+</html>

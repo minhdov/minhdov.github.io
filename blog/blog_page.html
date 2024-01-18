@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog</title>
+<style>
+    body { font-family: Arial, sans-serif; }
+    /* .sidebar { float: left; width: 200px; background: #f0f0f0; padding: 10px; margin-right: 20px; } */
+    .sidebar {
+    position: fixed; /* Fixes the sidebar to a specific position on the page */
+    width: 200px; /* Adjust width as needed */
+    top: 0; /* Position from the top */
+    left: 0; /* Position from the left */
+    bottom: 0; /* Stretch the sidebar to the bottom of the viewport */
+    overflow-y: auto; /* Allows scrolling within the sidebar */
+    padding: 10px;
+    background: #f0f0f0;
+    }
+    .main-content { margin-left: 250px; padding: 10px; /* Adjust the margin here */ }
+
+    /* .dropdown-btn { padding: 10px; width: 100%; border: none; background: #f9f9f9; cursor: pointer; outline: none; }
+    .dropdown-container .btn { background-color: #e7e7e7; padding: 5px; width: 95%; margin: 5px 0; border: none; text-align: left; cursor: pointer; outline: none; } */
+
+    .dropdown-btn, .dropdown-container .btn {
+    padding: 10px 10px; /* Consistent padding for top, right, and bottom, and left */
+    width: 100%; /* Full width of the sidebar */
+    border: none;
+    background: #f9f9f9;
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+    text-align: left; /* Text aligned to the left */
+    }
+
+    .dropdown-btn.active { background-color: #ccc; }
+    .dropdown-container { display: none; background-color: #f9f9f9; padding-left: 20px; }
+    .dropdown-container .btn:hover { background-color: #ddd; }
+
+    /* Add this inside your <style> tag */
+    .active-sub-btn {
+    background-color: #666; /* Or any color you want for highlighting */
+    color: white; /* Optional: change text color */
+    /* Add other styles if needed */
+    }
+
+    /* You may add additional CSS rules here */
+  </style>
+  </head>
+  <body>
+
+<div class="sidebar">
+  <button class="dropdown-btn">Computer Vision
+  </button>
+  <div class="dropdown-container">
+    <button class="btn" onclick="showContent('post1')">OpenCV library</button>
+    <button class="btn" onclick="showContent('post1')">Image processing</button>    
+  </div>
+  <button class="dropdown-btn">Deep Learning
+  </button>
+  <div class="dropdown-container">
+    <button class="btn" onclick="showContent('post1')">Pytorch</button>
+    <button class="btn" onclick="showContent('post1')">Tensorflow</button>
+  </div>
+  <button class="dropdown-btn">Embedded System
+  </button>
+  <div class="dropdown-container">
+    <button class="btn" onclick="showContent('post1')">Popular embedded computing platform</button>
+    <button class="btn" onclick="showContent('post1')">Embedded system</button>
+  </div>
+  <button class="dropdown-btn">Projects
+  </button>
+  <div class="dropdown-container">
+    <button class="btn" onclick="showContent('post1')">Image classification</button>
+    <button class="btn" onclick="showContent('post1')">Object detection</button>
+    <button class="btn" onclick="showContent('post1')">Object tracking'</button>
+
+  </div>
+</div>
+
+<div class="main-content" id="main-content">
+  <h2>Content Area</h2>
+  <p>Select an item to display content.</p>
+</div>
+
+<script>
+  var dropdown = document.getElementsByClassName("dropdown-btn");
+  var i;
+
+  for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+      } else {
+        dropdownContent.style.display = "block";
+      }
+    });
+  }
+
+//   function showContent(contentId) {
+//     var content = "Content for " + contentId;
+//     // Here you would probably want to fetch content from a server or link to another page.
+//     document.getElementById("main-content").innerHTML = "<h2>" + contentId.toUpperCase() + "</h2><p>" + content + "</p>";
+//   }
+
+
+function showContent(contentId) {
+
+
+    
+  // Construct the file name based on contentId
+  const filename = contentId + '.html';
+
+  // Use the fetch API to load the content
+  fetch(filename)
+    .then(response => {
+      // Check if the file was found
+      if (!response.ok) {
+        throw new Error('Network response was not ok ' + response.statusText);
+      }
+      return response.text();
+    })
+    .then(html => {
+      // Insert the loaded content into the main-content div
+      document.getElementById('main-content').innerHTML = html;
+    })
+    .catch(error => {
+      console.error('There has been a problem with your fetch operation:', error);
+      document.getElementById('main-content').innerHTML = '<p>Content not found.</p>';
+    });
+}
+
+
+</script>
+
+</body>
+</html>

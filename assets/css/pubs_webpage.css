@@ -9,9 +9,16 @@ h1#pubs-heading {
     padding: 20px 0px 20px 0px;
 }
 
+/* .pubs-block {
+    padding: 12px;
+} */
+
 .pubs-block {
     padding: 12px;
+    margin-right: 0; /* Set right margin to 0 or a smaller value */
+
 }
+
 
 .pubs-section {
     font-size: 22px;

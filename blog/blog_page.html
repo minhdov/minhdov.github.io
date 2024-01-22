@@ -18,7 +18,8 @@
     padding: 10px;
     background: #f0f0f0;
     }
-    .main-content { margin-left: 250px; padding: 10px; /* Adjust the margin here */ }
+    .main-content { margin-left: 220px; padding: 10px; border: 2px solid red;   transition: opacity 0.2s ease-in-out; /* Adjust time as needed */
+        /* Adjust the margin here */ }
 
     /* .dropdown-btn { padding: 10px; width: 100%; border: none; background: #f9f9f9; cursor: pointer; outline: none; }
     .dropdown-container .btn { background-color: #e7e7e7; padding: 5px; width: 95%; margin: 5px 0; border: none; text-align: left; cursor: pointer; outline: none; } */
@@ -55,13 +56,13 @@
   </button>
   <div class="dropdown-container">
     <button class="btn" onclick="showContent('post1')">OpenCV library</button>
-    <button class="btn" onclick="showContent('post1')">Image processing</button>    
+    <button class="btn" onclick="showContent('post2')">Image processing</button>    
   </div>
   <button class="dropdown-btn">Deep Learning
   </button>
   <div class="dropdown-container">
     <button class="btn" onclick="showContent('post1')">History of deep learning</button>
-    <button class="btn" onclick="showContent('post1')">Introduction of deep learning libraries and tools</button>
+    <button class="btn" onclick="showContent('post2')">Introduction of deep learning libraries and tools</button>
     <button class="btn" onclick="showContent('post1')">Basic concepts in deep learning </button>
     <button class="btn" onclick="showContent('post1')">Data preparation</button>
     <button class="btn" onclick="showContent('post1')">Data annotation</button>
@@ -130,30 +131,37 @@
 
 
 function showContent(contentId) {
-
-
+    const mainContent = document.getElementById('main-content');
     
-  // Construct the file name based on contentId
-  const filename = contentId + '.html';
-
-  // Use the fetch API to load the content
-  fetch(filename)
-    .then(response => {
-      // Check if the file was found
-      if (!response.ok) {
-        throw new Error('Network response was not ok ' + response.statusText);
-      }
-      return response.text();
-    })
-    .then(html => {
-      // Insert the loaded content into the main-content div
-      document.getElementById('main-content').innerHTML = html;
-    })
-    .catch(error => {
-      console.error('There has been a problem with your fetch operation:', error);
-      document.getElementById('main-content').innerHTML = '<p>Content not found.</p>';
-    });
-}
+    // Fade out the current content
+    mainContent.style.opacity = 0;
+  
+    // Wait for the fade-out effect to finish before fetching new content
+    setTimeout(() => {
+      const filename = contentId + '.html';
+      
+      // Use the fetch API to load the content
+      fetch(filename)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Network response was not ok: ' + response.statusText);
+          }
+          return response.text();
+        })
+        .then(html => {
+          // Insert the loaded content into the main-content div
+          mainContent.innerHTML = html;
+          // Fade in the new content
+          mainContent.style.opacity = 1;
+        })
+        .catch(error => {
+          console.error('There has been a problem with your fetch operation:', error);
+          mainContent.innerHTML = '<p>Content not found. Please try again later.</p>';
+          mainContent.style.opacity = 1;
+        });
+    }, 400); // This should match the transition duration
+  }
+  
 
 
 </script>

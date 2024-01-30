@@ -4,8 +4,8 @@
 - name: Projects
   link: /#projects
 
-- name: Publications
-  link: /#publications
+# - name: Publications
+#   link: /#publications
 
 - name: Blog
   link: /blog/blog_page.html

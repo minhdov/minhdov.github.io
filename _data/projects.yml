@@ -29,8 +29,8 @@
   computer vision algorithm and an optimized deep learning model for real-time vehicle detection and tracking. The system 
   operates continuously on resource-constrained embedded computing platforms, ensuring 24/7 effectiveness. Notably, it maintains 
   its efficiency amidst changing illumination and diverse weather conditions in Singapore."
-  # webpage: "/projects/cacheadaptive.html"
-  # code: "https://github.com/tpvt99/cs5234_cache"
+  webpage: "/projects/cacheadaptive.html"
+  demo: "https://www.youtube.com/watch?v=1VhxGp22V5M"
 
 - name: "Virtual Right of Way"
   id: "filmgenre"
@@ -47,6 +47,9 @@
       webpage: "https://siewkeilam.github.io/ei-research-group/index.html"
     - name: "Thambipillai Srikanthan"
       webpage: "https://www.ntu.edu.sg/scse/about-us/past-chairs/prof-thambipillai-srikanthan" 
+  webpage: "/projects/cacheadaptive.html"
+  demo: "https://www.youtube.com/watch?v=n0iKGyyyqi0"
+
 
   intro: "The project has successfully developed a lightweight computer vision algorithm and an optimized deep learning model 
   tailored for real-time operations on a low-cost embedded computing platform. These advancements ensure dependable, real-time 

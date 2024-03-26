@@ -5,8 +5,8 @@
             <div style="max-width: 50%; float:left;">
                 {% if project.webpage %}
                     <span><a href="{{project.webpage}}" class="pub-name" style="display:inline" target="_blank">{{ project.name }} </a></span>
-                    {% if project.code %}
-                        <span>| <a href="{{project.code}}" class="pub-name" style="display:inline" target="_blank">Code</a></span>
+                    {% if project.demo %}
+                        <span>| <a href="{{project.demo}}" class="pub-name" style="display:inline" target="_blank">Demo</a></span>
                     {% endif %}
                 {% else %}
                     <span class="pub-name" style="color:black;">{{ project.name }} </span>

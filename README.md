@@ -9,6 +9,8 @@
 gem install bundler jekyll
 bundle update
 bundle exec jekyll serve
+bundle exec jekyll serve --port 3000
+
 ```
 Now you can head to localhost:port that appears on terminal to see the webpage
 

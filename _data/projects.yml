@@ -11,6 +11,9 @@
       webpage: "https://siewkeilam.github.io/ei-research-group/index.html"
   intro: "This project aims to study the viability of I2V communication for driving assistance in public transportation facilities. In particular, visual analytics performed on the edge computing devices mounted on the public transportation infrastructure will be communicated to vehicles (such as Autonomous Vehicles) to enhance their navigation in the vicinity."
   webpage: "https://tum-asia.edu.sg/prospects-after-graduation/pudo-future-mobility-in-singapore/"
+  webpage: "/projects/cacheadaptive.html"
+  demo: "https://youtu.be/aShGlYIwSok"
+
 
 - name: "Vision based Smart Traffic Light"
   id: "cacheadaptive"
@@ -36,11 +39,11 @@
   id: "filmgenre"
   timeline: "NTU, Singapore, Nov. 2020"
   teammates:
-    - name: "Nirmala Ramakrishnan"
-      webpage: "teammates/nirmala-ramakrishnan.html"
     - name: "Van Minh Do"
       me: "true"
-      webpage: "https://minhdov.github.io/"
+      webpage: "https://minhdov.github.io/"  
+    - name: "Nirmala Ramakrishnan"
+      webpage: "teammates/nirmala-ramakrishnan.html"
     - name: "Alok Prakash"
       webpage: "https://www.linkedin.com/in/alokprakash2/"
     - name: "Siew-Kei Lam"
@@ -81,6 +84,8 @@
   and resilient performance on resource-constrained embedded computing platforms. Notably, the project achieves significant 
   reductions in power consumption, facilitating continuous operation 24/7. This capability ensures precise people counting 
   even amidst fluctuations in illumination and varying degrees of crowded scenarios in Singapore."
+  webpage: "/projects/cacheadaptive.html"
+  demo: "https://youtu.be/1WgVBhyGPjg"
 
 - name: "Vision based Illegal Parking Detection"
   id: "cacheadaptive1"

@@ -1,3 +1,22 @@
+- name: "Shoplifting Behavior Detection"
+  id: "duckietown"
+  timeline: "NTU, Singapore, May 2023 - present"
+  teammates:
+    - name: "Van Minh Do"
+      me: "true"
+      webpage: "https://minhdov.github.io/"
+    - name: "Wu Meiqing"
+      webpage: "https://dblp.org/pid/119/4173.html"
+    - name: "Siew-Kei Lam"
+      webpage: "https://siewkeilam.github.io/ei-research-group/index.html"
+    - name: "Thambipillai Srikanthan"
+      webpage: "https://www.ntu.edu.sg/scse/about-us/past-chairs/prof-thambipillai-srikanthan"       
+  intro: "This project focuses on leveraging computer vision and deep learning technologies to detect shoplifting behaviors in retail environments in real-time. 
+  By analyzing video streams, the system distinguishes between typical customer actions and potential theft activities. Embedded systems facilitate swift processing and response, allowing for immediate alerts or preventive measures. The objective is to minimize retail losses by implementing an advanced, automated surveillance solution."
+  # webpage: "/projects/cacheadaptive.html"
+  # demo: "https://youtu.be/aShGlYIwSok"
+
+
 - name: "Infrastructure to Vehicle (I2V) Communication for Driving Assistance"
   id: "duckietown"
   timeline: "NTU, Singapore, May 2021 - May 2023"

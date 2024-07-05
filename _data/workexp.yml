@@ -1,3 +1,17 @@
+- name: "Autonomous Drone in Maze"
+  id: "y3engine"
+  timeline: "College of Computing and Data Science, NTU, Nov 2023 - now"
+  intro: "In the Autonomous Drone in Maze project, I built autonomous drone system focused on real-time sensing, mapping, planning, and navigation 
+  within a maze environment. My work involved creating a seamless simulation environment through the integration of Hardware-in-the-loop (HIL) pipelines 
+  and the implementation of real-time algorithms. This setup allowed drone flight simulation on a workstation while running SLAM, mapping, planning, 
+  navigation, and control modules in real-time on the Jetson.
+
+I optimized and allocated computing resources across the embedded CPU-DLA-GPU, which enhanced the performance of SLAM, 
+mapping, planning, navigation, and object detection. These efforts enabled the drone to achieve efficient flight speeds 
+and navigate through dense obstacle environments, showcasing the system's capability to operate effectively in challenging conditions on the Jetson."
+  # webpage: "https://tum-asia.edu.sg/prospects-after-graduation/pudo-future-mobility-in-singapore/"
+
+
 - name: "Infrastructure to Vehicle (I2V) Communication for Driving Assistance"
   id: "y3engine"
   timeline: "School of Computer Science and Engineering, NTU, Dec 2020 - now"

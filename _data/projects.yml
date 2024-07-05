@@ -1,3 +1,21 @@
+- name: "Autonomous Drone in Maze"
+  id: "duckietown"
+  timeline: "NTU, Singapore, Nov 2023 - present"
+  teammates:
+    - name: "Van Minh Do"
+      me: "true"
+      webpage: "https://minhdov.github.io/"
+    - name: "Zhang Dongshuo"
+      webpage: "https://dblp.org/pid/250/0546.html"
+    - name: "Siew-Kei Lam"
+      webpage: "https://siewkeilam.github.io/ei-research-group/index.html"
+   
+  intro: "This project aims to develop a comprehensive autonomous drone system capable of real-time sensing, mapping, planning, and navigation within a maze to avoid obstacles and detect individuals. The integrated system will operate in real-time on an embedded computing platform, enabling the drone to fly at high speeds.
+"
+  # webpage: "/projects/cacheadaptive.html"
+  # demo: "https://youtu.be/aShGlYIwSok"
+
+
 - name: "Shoplifting Behavior Detection"
   id: "duckietown"
   timeline: "NTU, Singapore, May 2023 - present"
@@ -19,7 +37,7 @@
 
 - name: "Infrastructure to Vehicle (I2V) Communication for Driving Assistance"
   id: "duckietown"
-  timeline: "NTU, Singapore, May 2021 - May 2023"
+  timeline: "NTU, Singapore, Nov 2021 - Nov 2023"
   teammates:
     - name: "Van Minh Do"
       me: "true"

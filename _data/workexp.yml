@@ -1,6 +1,6 @@
 - name: "Autonomous Drone in Maze"
   id: "y3engine"
-  timeline: "College of Computing and Data Science, NTU, Nov 2023 - now"
+  timeline: "College of Computing and Data Science, NTU, Nov. 2023 - now"
   intro: "In the Autonomous Drone in Maze project, I built autonomous drone system focused on real-time sensing, mapping, planning, and navigation 
   within a maze environment. My work involved creating a seamless simulation environment through the integration of Hardware-in-the-loop (HIL) pipelines 
   and the implementation of real-time algorithms. This setup allowed drone flight simulation on a workstation while running SLAM, mapping, planning, 
@@ -14,7 +14,7 @@ and navigate through dense obstacle environments, showcasing the system's capabi
 
 - name: "Infrastructure to Vehicle (I2V) Communication for Driving Assistance"
   id: "y3engine"
-  timeline: "School of Computer Science and Engineering, NTU, Dec 2020 - now"
+  timeline: "School of Computer Science and Engineering, NTU, Nov. 2021 - Nov. 2023"
   intro: "In the Infrastructure to Vehicle (I2V) Communication for Driving Assistance project, I led the development of real-time, 
   resource-efficient computer vision algorithms to facilitate urban traffic management through embedded systems, optimizing for both 
   cost and power consumption. Leveraging object detection and tracking techniques, I spearheaded the analysis of traffic flows across 
@@ -28,7 +28,7 @@ of AI data handling, including meticulous preparation and annotation."
 
 - name: "Sensing and Management for Agile Transport"
   id: "gv"
-  timeline: "School of Computer Science and Engineering, NTU, Dec 2016 - Dec 2020"
+  timeline: "School of Computer Science and Engineering, NTU, Nov. 2016 - Nov. 2021"
   intro: "In the Sensing and Management for Agile Transport project, I played a pivotal role in setting up a comprehensive camera network, 
   configuring 27 cameras across 8 key locations to capture high-quality video data for traffic analytics. My work involved developing 
   and refining lightweight computer vision algorithms, training, and optimizing AI models on embedded platforms for real-time 

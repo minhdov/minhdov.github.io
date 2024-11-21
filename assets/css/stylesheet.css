@@ -222,3 +222,59 @@ strong {
 .research-proj .pub-info > a {
   padding-right: 10px;
 }
+
+.pubs-text {
+  line-height: 1.5; /* Increases spacing between lines */
+  font-size: 15px; /* Optional: Adjusts font size for readability */
+
+}
+
+.list-group {
+  margin-bottom: 15px; /* Adds space between groups of lists */
+
+}
+
+.list-group ul {
+  margin-left: 20px; /* Indents nested lists */
+  margin-bottom: 10px; /* Adds space between nested lists */
+  font-size: 15px; /* Optional: Adjusts font size for readability */
+
+}
+
+.list-group li {
+  margin-bottom: 5px; /* Adds space between individual list items */
+  
+}
+
+.intro-text {
+  line-height: 1.5; /* Increases spacing between lines */
+  margin-bottom: 20px; /* Optional: Adds space below the paragraph */
+  font-size: 14px; /* Optional: Adjusts font size for readability */
+}
+
+
+.pubs-text strong {
+  font-size: 14px; /* Set a larger font size for country names */
+  font-weight: bold; /* Ensure the text remains bold */
+  display: block; /* Make the country name occupy its own line */
+  margin-top: 10px; /* Add space above the country name */
+}
+
+ol {
+  list-style-type: decimal; /* Ensures numbers are shown */
+  margin-left: 20px; /* Adds spacing to align with the content */
+}
+
+li {
+  margin-bottom: 5px; /* Adds spacing between each list item */
+}
+
+ul li a {
+  font-size: inherit; /* Ensures the font size matches the parent element */
+  text-decoration: none; /* Removes underlines (optional) */
+}
+
+ul li {
+  font-size: 14px; /* Set your desired normal font size */
+  line-height: 1.5; /* Improves readability */
+}

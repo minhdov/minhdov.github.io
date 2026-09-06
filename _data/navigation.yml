@@ -7,11 +7,8 @@
 - name: Projects
   link: /#projects
 
-- name: Tech Blog
-  link: /tech.html
-
-- name: Travel Blog
+- name: Travel
   link: /travel.html
 
-- name: List 100
+- name: Life List
   link: /list100.html

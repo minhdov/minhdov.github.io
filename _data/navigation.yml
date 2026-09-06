@@ -1,14 +1,20 @@
 - name: Home
   link: /
 
-- name: Projects
-  link: /#projects
+# - name: Projects
+#   link: /#projects
 
 # - name: Publications
 #   link: /#publications
 
 - name: Tech Blog
-  link: /blog.html
+  link: /tech.html
+  
+- name: Travel Blog
+  link: /travel.html
 
-# - name: List 100
-#   link: /list100/list100.html
+- name: Life Abroad
+  link: /life.html
+  
+- name: List 100
+  link: /list100.html

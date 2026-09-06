@@ -281,3 +281,60 @@ ul li {
  /****************/
 
  
+ .intro-image {
+  width: 100%;  /* Resize image to fit within the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any extra space below the image */
+}
+
+.image-container {
+  display: flex; /* Side-by-side layout */
+  justify-content: center; /* Center the images */
+  align-items: flex-start; /* Align items to the top */
+  gap: 20px; /* Reduce the space between images */
+  flex-wrap: wrap; /* Optional: Makes images stack on smaller screens */
+}
+
+.image-item {
+  flex: 1; /* Ensure both images take up equal width */
+  max-width: 45%; /* Restrict the image width to 45% of the container */
+}
+
+.image-title {
+  text-align: center; /* Center-align the title */
+  font-size: 14px; /* Set font size for the title */
+  color: #333; /* Set the color of the title text */
+  margin-top: 10px; /* Add spacing between the image and the title */
+}
+
+
+
+.image-item {
+  flex: 1;
+  max-width:35%; /* Ensures that both images take up equal space */
+}
+
+.image-item2 {
+  flex: 1;
+  max-width: 25%; /* Ensures that both images take up equal space */
+}
+
+.image-item.left {
+  /* Left image stays at the original size (if you want to adjust it, change here) */
+}
+
+.image-item.right {
+  max-width: 28%; /* Adjust this value to resize the right image */
+}
+
+.intro-image {
+  width: 100%;  /* Ensures images fill their container's width */
+  height: auto; /* Keeps the aspect ratio intact */
+}
+
+.image-title {
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+}

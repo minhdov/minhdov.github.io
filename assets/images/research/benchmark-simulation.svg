@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Benchmark, Simulation &amp; Data</title>
+  <desc id="desc">Temporary layout placeholder with a simple line illustration. Replace with a research image later.</desc>
+  <rect width="1200" height="700" fill="#f5f6f7"/>
+  <rect x="24" y="24" width="1152" height="652" rx="12" fill="none" stroke="#dce1e5" stroke-width="2"/>
+  <g fill="none" stroke="#647b8b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><rect x="430" y="180" width="340" height="220" rx="10"/><path d="M560 400v35m80-35v35m-110 0h140M475 355h245M495 335v-55m65 55V245m65 90v-125m65 125v-75"/><path d="m490 240 65-35 65 15 70-40" stroke-dasharray="8 10"/></g>
+  <text text-anchor="middle" fill="#33434e" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="500"><tspan x="600" y="525">Benchmark, Simulation &amp; Data</tspan></text>
+  <text x="600" y="635" text-anchor="middle" fill="#7b858d" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="3">TEMPORARY PLACEHOLDER</text>
+</svg>

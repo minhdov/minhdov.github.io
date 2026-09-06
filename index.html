@@ -26,91 +26,86 @@
         </div>
 
         <div class="" style="width:70%;float:left">
-            <p class="name block" align="center">Do Van Minh </p>
-
-            <p class="block">
-                I am currently a Research Engineer at the <a href="https://smart.mit.edu/" target="_blank">Singapore-MIT Alliance for Research and Technology (SMART)</a>, 
-                a research center of the <a href="https://www.mit.edu/" target="_blank">Massachusetts Institute of Technology (MIT)</a> in Singapore. At SMART MIT, 
-                I work under the supervision of <a href="https://meche.mit.edu/people/faculty/sesarma%40mit.edu/" target="_blank">Professor Sanjay Sarma</a> on the  <a href="https://m3s.mit.edu/" target="_blank">M3S project</a>, 
-                where I develop AI models in computer vision and natural language processing (NLP) to enhance collaboration between AI, humans, and machines, 
-                focusing particularly on education and robotics.
+            <p class="name block" align="center">Do Van Minh</p>
+            <p class="block">Research Engineer @ SMART<br>
+                <strong>Computer Vision · Robot Perception · Embodied AI</strong><br>
+                <span>Building intelligent systems that perceive, reconstruct, understand, and interact with the physical world.</span>
             </p>
-            
             <p class="block">
-                Prior to joining SMART MIT, I worked as a Research Associate at the <a href="https://www.ntu.edu.sg/computing" target="_blank">College of Computing and Data Science</a> at Nanyang Technological University (NTU), 
-                where I focused on computer vision and deep learning for embedded computing platforms. I also earned a Master of Engineering in Computer Science from NTU, 
-                where my dissertation, supervised by <a href="https://siewkeilam.github.io/ei-research-group/index.html" target="_blank">Professor Lam Siew Kei</a>, 
-                addressed multi-camera tracking for smart urban mobility.
+                I am currently a Research Engineer at the <a href="https://smart.mit.edu/" target="_blank">Singapore-MIT Alliance for Research and Technology (SMART)</a>, a research center of the <a href="https://www.mit.edu/" target="_blank">Massachusetts Institute of Technology (MIT)</a> in Singapore. I work under the supervision of <a href="https://meche.mit.edu/people/faculty/sesarma%40mit.edu/" target="_blank">Professor Sanjay Sarma</a> and Professor Archan Misra on the <a href="https://m3s.mit.edu/" target="_blank">M3S project</a>.
             </p>
-            
-
             <p class="block">
-                <a href="mailto:vmdo@mit.edu">Email: vmdo@mit.edu</a>
-                <!-- <span>&sol;</span> -->
-                <br>
-                <a href="assets/pdf/CV_Minh.pdf" target="_blank">CV</a> 
-                <span>&sol;</span> 
-                <a href="https://www.linkedin.com/in/minhdov/" target="_blank">Linkedin</a>
-                <!-- <span>&sol;</span> 
-                <a href="https://github.com/minhdov" target="_blank">Github</a> -->
+                Prior to joining SMART, I worked as a Research Associate at Nanyang Technological University (NTU), where I focused on computer vision, autonomous systems, and embedded AI under <a href="https://siewkeilam.github.io/ei-research-group/index.html" target="_blank">Professor Siew-Kei Lam</a>. I also earned a Master of Engineering in Computer Science from NTU, where my dissertation addressed multi-camera tracking for smart urban mobility.
+            </p>
+            <p class="block">
+                <strong>Interested in doing research in Computer Vision, Robot Perception, or Embodied AI?</strong><br>
+                I welcome motivated students to reach out about research opportunities.<br>
+                <a href="mailto:vmdo@mit.edu">vmdo@mit.edu</a> ·
+                <a href="https://www.linkedin.com/in/minhdov/" target="_blank">LinkedIn</a> ·
+                <a href="{{ '/assets/pdf/CV_Minh.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">CV</a>
             </p>
         </div>
     </div>
     <div class="divider"></div>
-    <div class="research block">
-        <p class="heading block"> Research</p>
-        <p class="block">My research is centered on developing lightweight Computer Vision and Deep Learning algorithms tailored for 
-            resource-constrained embedded platforms, with a particular focus on enhancing Intelligent Transportation 
-            Systems in Smart Cities. This involves creating solutions that are not only innovative 
-            but also practical for real-world applications.
-        </p>
-        <p class="block">
-            In this realm, I have honed my skills across various technical frameworks, including OpenCV, PyTorch, TensorFlow, ONNX, NCNN and ROS. 
-            My expertise covers a wide range of areas from data preparation and model optimization techniques like quantization and pruning, 
-            to diverse learning methodologies such as transfer learning, knowledge distillation, and a mix of supervised, self-supervised, 
-            and unsupervised techniques. My practical experience is evidenced by my success in complex tasks like change detection, 
-            image classification, object detection, segmentation, and multiple object tracking, with a special emphasis on deploying 
-            these advanced models on embedded devices.
+    <div class="research block" id="research">
+        <p class="heading block">Research</p>
+        <p class="block">My research focuses on Computer Vision, Robot Perception, and Embodied AI. I am interested in building intelligent systems that can perceive and reconstruct the physical world, understand human-object interactions, and translate this understanding into reliable robot actions.</p>
+        <p class="block">My current research spans visual perception and grounding, 3D geometric perception, interaction understanding and robot learning, industrial visual perception and inspection, and industrial simulation and benchmarking.</p>
+    </div>
 
-            <p class="block">
-            <strong>If you are interested in Computer Vision, Deep Learning, and Embedded Systems, feel free to <a href="mailto:vmdo@mit.edu">contact me</a> for mentorship in these areas.</strong>
-            </p>
-
-        </p>
+    <div class="divider"></div>
+    <div class="project block" id="research-directions">
+        <p class="heading block">Featured Research Directions</p>
+        {% include projects.html projects=site.data.research show_research_demos=true %}
     </div>
 
     <div class="divider"></div>
     <div class="workexp block" id="workexp">
         <p class="heading block">Work Experience</p>
-        {% include workexp.html %}
+        <div class="research-proj block">
+            <strong>Research Engineer</strong>
+            <p>Singapore-MIT Alliance for Research and Technology (SMART)</p>
+            <p>2024 – Present</p>
+            <p>AI · Computer Vision · Robotics · Embodied AI</p>
+        </div>
+        <div class="research-proj block">
+            <strong>Research Associate</strong>
+            <p>Nanyang Technological University (NTU)</p>
+            <p>2016 – 2024</p>
+            <p>Computer Vision · Autonomous Systems · Embedded AI · Intelligent Transportation</p>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+    <div class="block" id="education">
+        <p class="heading block">Education</p>
+        <div class="block">
+            <strong>Master of Engineering in Computer Science</strong>
+            <p>Nanyang Technological University (NTU), Singapore</p>
+            <p>2021–2023</p>
+            <p>GPA: 4.5/5.0</p>
+            <p>Thesis: Multi-Camera Tracking for Smart Urban Mobility</p>
+        </div>
+        <div class="block">
+            <strong>Bachelor of Engineering in Electronics and Telecommunications Engineering</strong>
+            <p>Danang University of Science and Technology, Vietnam</p>
+            <p>2011–2016</p>
+            <p>Graduated with Distinction</p>
+            <p>Thesis: Robotic Arm Design for People with Arm Disabilities Using Head Gestures and Eyebrow Movements</p>
+        </div>
     </div>
 
     <div class="divider"></div>
     <div class="project block" id="projects">
-        <p class="heading block">Projects</p>
-        {% include projects.html %}
+        <p class="heading block">Selected Previous Projects</p>
+        {% assign recent_projects = site.data.projects | slice: 0, 4 %}
+        {% assign earlier_projects = site.data.projects | slice: 4, site.data.projects.size %}
+        {% assign slam = site.data.workexp | where: "id", "cudo" %}
+        {% assign previous_projects = recent_projects | concat: slam | concat: earlier_projects | where_exp: "project", "project.name != 'Shoplifting Behavior Detection'" %}
+        {% assign selected_projects = previous_projects | slice: 0, 5 %}
+        {% include projects.html projects=selected_projects homepage_previous=true %}
     </div>
-    
-    <!-- <div class="divider"></div>
-    <div class="publication block" id="publications">
-        <p class="heading block">Publications</p>
-        {% include publications.html %}
-    </div> -->
 
-    <!-- <div class="divider"></div>
-    <div class="publication block" id="list100">
-        <a href="list100.html" target="_blank">
-            <p class="heading block">List100</p>
-        </a>
-    </div> -->
-    
-
-    <div>
-
-    <div class="block">
-        <p class="block" style="float:right">Theme from <a href="https://jonbarron.info/" target="_blank">Jon Barron</a>. Developed using 
-            <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.</p>
-    </div>
     
   </body>
 </html>

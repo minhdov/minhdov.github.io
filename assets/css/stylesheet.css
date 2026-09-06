@@ -200,6 +200,21 @@ strong {
 
 }
 
+#research-directions .pub-name {
+  text-align: left;
+}
+
+#research-directions .research-summary {
+  padding-left: 28px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+  #research-directions .research-summary {
+    padding-left: 16px;
+  }
+}
+
 .research-proj .pub-name {
   color:rgb(22, 91, 170);
   font-size: 14px;

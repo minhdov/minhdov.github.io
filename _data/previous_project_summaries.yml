@@ -1,0 +1,43 @@
+"Autonomous Drone in Maze":
+  timeline: "NTU, Singapore · 2023–2024"
+  intro: "Developed an autonomous drone system for real-time sensing, mapping, planning, and navigation in maze environments, with perception and navigation modules optimized for embedded computing on Jetson."
+
+"Shoplifting Behavior Detection":
+  timeline: "NTU, Singapore · 2023–Present"
+  intro: "Research focused on real-time analysis of retail video streams to distinguish typical shopping behavior from potential theft, using computer vision, deep learning, and embedded processing for timely detection."
+
+"Infrastructure to Vehicle (I2V) Communication for Driving Assistance":
+  timeline: "NTU, Singapore · 2021–2023"
+  intro: "Developed edge-based visual analytics for infrastructure-to-vehicle communication, using real-time vehicle tracking and crowd counting from infrastructure cameras to support autonomous vehicle navigation near public transportation facilities."
+
+"Vision based Smart Traffic Light":
+  demo_url: "https://www.youtube.com/watch?v=1VhxGp22V5M"
+  timeline: "NTU, Singapore · 2021"
+  intro: "Developed lightweight computer vision and deep learning models for real-time vehicle detection and tracking to reduce traffic-light waiting times, with continuous deployment on resource-constrained embedded platforms."
+
+"Virtual Right of Way":
+  demo_url: "https://www.youtube.com/watch?v=n0iKGyyyqi0"
+  timeline: "NTU, Singapore · 2020"
+  intro: "Developed lightweight computer vision and deep learning models for real-time bus detection and tracking on low-cost embedded platforms, supporting operation across changing weather, illumination, and traffic conditions."
+
+"Vision based Crowd Counting":
+  demo_url: "https://youtu.be/1WgVBhyGPjg"
+  timeline: "NTU, Singapore · 2019"
+  intro: "Developed a lightweight real-time crowd-counting system to estimate passenger demand at bus stops and inform bus scheduling, with embedded deployment for continuous operation under varying illumination and crowding."
+
+"Vision based Illegal Parking Detection":
+  timeline: "NTU, Singapore · 2018"
+  intro: "Developed a lightweight vision system for real-time detection and tracking of illegally parked vehicles and visual evidence collection, deployed on embedded platforms under changing weather and illumination."
+
+"Vision based Illegal Entry Detection":
+  timeline: "NTU, Singapore · 2017"
+  intro: "Developed a lightweight vision system for detecting and tracking unauthorized vehicle entry into restricted bus lanes, with evidence collection and continuous embedded operation under varying traffic and environmental conditions."
+
+"Vision based Traffic Density Estimation":
+  timeline: "NTU, Singapore · 2016"
+  intro: "Developed a lightweight computer vision algorithm to estimate traffic density from the percentage of lane occupancy, with continuous operation on embedded platforms under changing illumination and weather."
+
+"Simultaneous Localization and Mapping (SLAM)":
+  timeline: "NTU, Singapore · 2020–2022"
+  intro: "Improved visual SLAM robustness through dynamic outlier removal and semantic loop closure for RGB-D and stereo systems, focusing on pose estimation, mapping, and deployment on embedded platforms."
+

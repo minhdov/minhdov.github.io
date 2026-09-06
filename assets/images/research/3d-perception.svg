@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">3D Geometric Perception</title>
+  <desc id="desc">Temporary layout placeholder with a simple line illustration. Replace with a research image later.</desc>
+  <rect width="1200" height="700" fill="#f5f6f7"/>
+  <rect x="24" y="24" width="1152" height="652" rx="12" fill="none" stroke="#dce1e5" stroke-width="2"/>
+  <g fill="none" stroke="#647b8b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M600 170 730 240v145l-130 75-130-75V240Z M470 240l130 75 130-75M600 315v145"/><path d="M600 170v145" stroke-dasharray="10 12"/></g>
+  <text text-anchor="middle" fill="#33434e" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="500"><tspan x="600" y="525">3D Geometric Perception</tspan></text>
+  <text x="600" y="635" text-anchor="middle" fill="#7b858d" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="3">TEMPORARY PLACEHOLDER</text>
+</svg>

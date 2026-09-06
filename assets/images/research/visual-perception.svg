@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Visual Perception &amp; Grounding</title>
+  <desc id="desc">Temporary layout placeholder with a simple line illustration. Replace with a research image later.</desc>
+  <rect width="1200" height="700" fill="#f5f6f7"/>
+  <rect x="24" y="24" width="1152" height="652" rx="12" fill="none" stroke="#dce1e5" stroke-width="2"/>
+  <g fill="none" stroke="#647b8b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><rect x="440" y="190" width="320" height="190" rx="12"/><path d="M490 285 Q600 180 710 285 Q600 390 490 285Z"/><circle cx="600" cy="285" r="32"/><path d="M420 225v-55h55m250 0h55v55M420 345v55h55m250 0h55v-55"/></g>
+  <text text-anchor="middle" fill="#33434e" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="500"><tspan x="600" y="525">Visual Perception &amp; Grounding</tspan></text>
+  <text x="600" y="635" text-anchor="middle" fill="#7b858d" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="3">TEMPORARY PLACEHOLDER</text>
+</svg>

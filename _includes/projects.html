@@ -15,7 +15,7 @@
         <div style="overflow:hidden">
             <div style="max-width: 50%; float:left;">
                 {% if project.webpage %}
-                    <span><a href="{{project.webpage}}" class="pub-name" style="display:inline" target="_blank">{{ project_title }} </a></span>
+                    <span><a href="{{project.webpage}}" class="pub-name" style="display:inline" target="_blank" rel="noopener noreferrer">{{ project_title }} </a></span>
                     {% if project.demo and include.homepage_previous != true %}
                         <span>| <a href="{{project.demo}}" class="pub-name" style="display:inline" target="_blank">Demo</a></span>
                     {% endif %}

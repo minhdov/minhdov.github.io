@@ -6,7 +6,7 @@
 
 - name: "3D Geometric Perception"
   demo_label: "Robot Perception & Manipulation Demo"
-  demo_url: "#robot-perception-manipulation-demo"
+  demo_url: "https://youtube.com/shorts/v0lPksg3bhk?feature=share"
   image: "/assets/images/research/3d-geometric-perception.webp"
   image_alt: "3D geometric perception research"
   id: "3d-perception"

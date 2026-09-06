@@ -7,16 +7,17 @@
   intro: "Research focused on real-time analysis of retail video streams to distinguish typical shopping behavior from potential theft, using computer vision, deep learning, and embedded processing for timely detection."
 
 "Infrastructure to Vehicle (I2V) Communication for Driving Assistance":
+  demo_url: "https://youtu.be/aShGlYIwSok"
   timeline: "NTU, Singapore · 2021–2023"
   intro: "Developed edge-based visual analytics for infrastructure-to-vehicle communication, using real-time vehicle tracking and crowd counting from infrastructure cameras to support autonomous vehicle navigation near public transportation facilities."
 
 "Vision based Smart Traffic Light":
-  demo_url: "https://www.youtube.com/watch?v=1VhxGp22V5M"
+  demo_url: "https://youtu.be/1VhxGp22V5M"
   timeline: "NTU, Singapore · 2021"
   intro: "Developed lightweight computer vision and deep learning models for real-time vehicle detection and tracking to reduce traffic-light waiting times, with continuous deployment on resource-constrained embedded platforms."
 
 "Virtual Right of Way":
-  demo_url: "https://www.youtube.com/watch?v=n0iKGyyyqi0"
+  demo_url: "https://youtu.be/n0iKGyyyqi0"
   timeline: "NTU, Singapore · 2020"
   intro: "Developed lightweight computer vision and deep learning models for real-time bus detection and tracking on low-cost embedded platforms, supporting operation across changing weather, illumination, and traffic conditions."
 

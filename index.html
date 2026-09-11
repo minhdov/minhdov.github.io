@@ -56,7 +56,13 @@
     <div class="divider"></div>
     <div class="project block" id="research-directions">
         <p class="heading block">Featured Research Directions</p>
-        {% include projects.html projects=site.data.research show_research_demos=true %}
+        {% capture research_directions %}{% include projects.html projects=site.data.research show_research_demos=true %}{% endcapture %}
+        {% capture existing_demo %}<a href="https://youtu.be/zJFpFIoW8VE" target="_blank" rel="noopener noreferrer" style="font-size:13px;overflow-wrap:anywhere;">Immersive Workplace Demo</a>{% endcapture %}
+        {% capture updated_demos %}{{ existing_demo }}
+                </p>
+                <p style="margin-top:6px;">
+                    <a href="https://youtu.be/AZuxPuIRrCw" target="_blank" rel="noopener noreferrer" style="font-size:13px;overflow-wrap:anywhere;">Dual-Mode Soft Gripper Demo (IROS 2026)</a>{% endcapture %}
+        {{ research_directions | replace: existing_demo, updated_demos }}
     </div>
 
     <div class="divider"></div>

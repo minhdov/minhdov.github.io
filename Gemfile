@@ -6,3 +6,5 @@ source "https://rubygems.org"
 gem 'google-protobuf', '3.24.0'
 
 gem "jekyll"
+
+gem "bigdecimal", "~> 4.1"

@@ -2,7 +2,7 @@
   id: "duckietown"
   timeline: "NTU, Singapore, Nov 2023 - present"
   teammates:
-    - name: "Van Minh Do"
+    - name: "Minh Do"
       me: "true"
       webpage: "https://minhdov.github.io/"
     - name: "Zhang Dongshuo"
@@ -20,7 +20,7 @@
   id: "duckietown"
   timeline: "NTU, Singapore, May 2023 - present"
   teammates:
-    - name: "Van Minh Do"
+    - name: "Minh Do"
       me: "true"
       webpage: "https://minhdov.github.io/"
     - name: "Wu Meiqing"
@@ -39,7 +39,7 @@
   id: "duckietown"
   timeline: "NTU, Singapore, Nov 2021 - Nov 2023"
   teammates:
-    - name: "Van Minh Do"
+    - name: "Minh Do"
       me: "true"
       webpage: "https://minhdov.github.io/"
     - name: "Wu Meiqing"
@@ -57,7 +57,7 @@
   webpage: "https://www.tum-create.edu.sg/"
   timeline: "NTU, Singapore, Nov. 2021"
   teammates:
-    - name: "Van Minh Do"
+    - name: "Minh Do"
       me: "true"
 
       webpage: "https://minhdov.github.io/"
@@ -77,7 +77,7 @@
   id: "filmgenre"
   timeline: "NTU, Singapore, Nov. 2020"
   teammates:
-    - name: "Van Minh Do"
+    - name: "Minh Do"
       me: "true"
       webpage: "https://minhdov.github.io/"  
     - name: "Nirmala Ramakrishnan"
@@ -106,7 +106,7 @@
   teammates:
     - name: "Wu Meiqing"
       webpage: "https://dblp.org/pid/119/4173.html"
-    - name: "Van Minh Do"
+    - name: "Minh Do"
       me: "true"
 
       webpage: "https://minhdov.github.io/"
@@ -131,7 +131,7 @@
   teammates:
     - name: "Kratika Garg"
       webpage: "https://www.linkedin.com/in/kratika-garg/?originalSubdomain=sg"
-    - name: "Van Minh Do"
+    - name: "Minh Do"
       me: "true"
 
       webpage: "https://minhdov.github.io/"
@@ -154,7 +154,7 @@ resilient to changes in illumination and varying weather conditions in Singapore
   teammates:
     - name: "Wu Meiqing"
       webpage: "https://dblp.org/pid/119/4173.html"
-    - name: "Van Minh Do"
+    - name: "Minh Do"
       me: "true"
 
       webpage: "https://minhdov.github.io/"
@@ -179,7 +179,7 @@ resilient to changes in illumination and varying weather conditions in Singapore
       webpage: "https://www.linkedin.com/in/kratika-garg/?originalSubdomain=sg"
     - name: "Nirmala Ramakrishnan"
       webpage: "teammates/nirmala-ramakrishnan.html"
-    - name: "Van Minh Do"
+    - name: "Minh Do"
       me: "true"
 
       webpage: "https://minhdov.github.io/"
